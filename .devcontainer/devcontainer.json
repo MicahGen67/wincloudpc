@@ -1,0 +1,9 @@
+{
+  "name": "Windows 10 Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [8006, 3389],
+  "postCreateCommand": "echo 'Environment ready. Next, run docker-compose.'"
+}
